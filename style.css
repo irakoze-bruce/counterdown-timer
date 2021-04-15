@@ -1,0 +1,39 @@
+/** @format */
+
+* {
+  padding: 0%;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  background-image: url(./snow.jpg);
+  background-position: center, center;
+  background-size: cover;
+  text-align: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+h1 {
+  font-size: 3rem;
+  margin-top: 5rem;
+  font-weight: normal;
+  text-transform: capitalize;
+}
+.countdown-container {
+  display: flex;
+  justify-content: center;
+}
+
+.text {
+  font-weight: bold;
+  font-size: 4rem;
+  margin: 1rem 2rem;
+}
+
+span {
+  text-transform: capitalize;
+  font-weight: bold;
+  text-align: center;
+}
